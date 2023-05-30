@@ -1,3 +1,16 @@
 /* =============
     Typography
 ============= */
+@mixin mainheadline ($color){
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 0 20px;
+    color: ($color);
+}
+
+
+h1{
+    @include mainheadline(black);
+    font-size: 75px;
+}

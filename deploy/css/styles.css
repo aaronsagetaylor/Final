@@ -323,9 +323,62 @@ template {
 /* =============
     Base
 ============= */
+img {
+  max-width: 100%;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  article {
+    flex-direction: row;
+  }
+}
+
+button {
+  background-color: var(--yellow);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: auto 1200px auto;
+  grid-template-areas: ". grid-content .";
+  min-height: 100vh;
+}
+.container-grid .grid-content {
+  grid-area: grid-content;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
+h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 10px 0 20px;
+  color: black;
+  font-size: 75px;
+}
+
 /* =============
     Buttons
 ============= */
@@ -390,7 +443,6 @@ header #burger-container {
 }
 header #main-menu ul {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   text-align: center;
 }
