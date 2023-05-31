@@ -9,8 +9,47 @@
     color: ($color);
 }
 
+@mixin subheadlines ($color){
+    font-family: Poppins;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 0 20px;
+    color: ($color);
+}
+
+@mixin lowerheadlines ($color){
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 0 20px;
+    color: ($color);
+}
+
+@mixin paragraph ($color){
+    font-family: Poppins;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 0 20px;
+    color: ($color);
+}
+
 
 h1{
     @include mainheadline(black);
     font-size: 75px;
+}
+
+h2{
+    @include subheadlines(black);
+    font-size: 70px;
+}
+
+h3{
+    @include lowerheadlines(black);
+    font-size: 28px;
+}
+
+p{
+    @include paragraph(black);
+    font-size: 24px;
 }

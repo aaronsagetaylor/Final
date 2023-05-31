@@ -34,9 +34,22 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/danreview.png" : {
+    "\/deploy\/img\/d.png" : {
       "ft" : 32768,
       "iS" : 5424,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/d.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/danreview.png" : {
+      "ft" : 32768,
+      "iS" : 116995,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/danreview.png",
       "oF" : 0,
@@ -99,9 +112,22 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/markreview.png" : {
+    "\/deploy\/img\/m.png" : {
       "ft" : 32768,
       "iS" : 6345,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/m.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/markreview.png" : {
+      "ft" : 32768,
+      "iS" : 139074,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/markreview.png",
       "oF" : 0,
@@ -125,9 +151,22 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/sallyreview.png" : {
+    "\/deploy\/img\/s.png" : {
       "ft" : 32768,
       "iS" : 5640,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/s.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/sallyreview.png" : {
+      "ft" : 32768,
+      "iS" : 112735,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/sallyreview.png",
       "oF" : 0,
