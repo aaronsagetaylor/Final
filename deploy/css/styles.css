@@ -485,7 +485,7 @@ header #main-menu ul {
     Footer
 ============= */
 #slices img {
-  max-width: 100%;
+  max-width: 75%;
 }
 
 #galleryy {
@@ -493,7 +493,11 @@ header #main-menu ul {
   justify-content: center;
 }
 #galleryy img {
-  max-width: 100%;
+  max-width: 70%;
+}
+
+#info img {
+  max-width: 35%;
 }
 
 #more {
