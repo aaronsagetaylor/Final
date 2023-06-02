@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -248,20 +256,36 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/checkout\/background" : {
+    "\/dev\/checkout.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout\/background",
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/checkout\/checkout.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout\/checkout.html",
       "oF" : 0
     },
-    "\/dev\/content\/checkout\/checkout" : {
+    "\/dev\/content\/checkout\/form.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/checkout\/checkout",
+      "oAP" : "\/dev\/content\/checkout\/form.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout\/form.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/checkout\/form.html",
       "oF" : 0
     },
     "\/dev\/content\/product\/4slices.html" : {
@@ -326,22 +350,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/content\/thankyou\/background",
-      "oF" : 0
-    },
-    "\/dev\/content\/thankyou\/backhome" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/thankyou\/backhome",
-      "oF" : 0
-    },
-    "\/dev\/content\/thankyou\/checkmark" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/thankyou\/checkmark",
       "oF" : 0
     },
     "\/dev\/content\/thankyou\/confirm" : {
@@ -429,6 +437,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_base.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/base\/_form.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/base\/_form.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -673,6 +696,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/thankyou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 2
     }
   },
   "hooks" : [

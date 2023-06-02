@@ -1,5 +1,8 @@
 #reviewss{
     img{
-        max-width: 22%;
+        max-width: 30%;
     }
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
 }

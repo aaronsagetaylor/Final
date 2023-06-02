@@ -1,6 +1,8 @@
 #info{
     img{
-        max-width: 35%;
+        max-width: 45%;
     }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }

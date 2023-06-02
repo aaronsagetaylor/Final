@@ -1,62 +1,68 @@
 /* =============
     Header
 ============= */
-header{
-
+header {
     background-color: black;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
-
-#burger-btn{
-    span, span::before, span::after{
-    height: 5px;
-    width: 30px;
-    background-color: var(--white);
-    }
-    span{
-    display: block;
-    position: relative;
+    padding: 30px;
     
-    &::before{
-    position: absolute;
-    content:" ";
-    top: 10px;
-    }
-    
-    &::after{
-    position: absolute;
-    content:" ";
-    top: -10px;
-    }
-    }
-    }
 
-    #burger-container{
-        display: block;
-        position: relative;
-        z-index: 3;
-        @include lg{
-        display: none;
-        }
-        }
-        
-
-#main-menu{
-   ul{
+    #burger-btn {
         display: flex;
-    
-    
-        justify-content: space-between; 
-        text-align: center;
+        flex-direction: column;
+        grid-gap: 10px;
+        position: relative;
+       div {
+            height: 5px;
+            width: 30px;
+            background-color: var(--white);
+            
+        }
+
+    }
+
+    #burger-container {
+        display: block;
+        position: absolute;
+        z-index: 3;
         
-   }
-    @include lg{
+        right: 10px;
+
+        @include lg {
+            display: none;
+        }
+    }
+
+
+    #main-menu {
+        display: none;
+       
+        ul {
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            a{
+                @include subheadlines(white);
+                font-size: 30px;
+                text-decoration: none;
+                
+            }
+
+        }
+
+        @include lg {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            margin: 0 auto;
+            
+            
         }
+    }
+    #logo-container{
+        position: absolute;
+        left: 10px;
+    }
 }
-}
-
-

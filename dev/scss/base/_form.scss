@@ -1,0 +1,31 @@
+form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 500px;
+        margin: 30px;
+        
+        div{
+        display: flex;
+        }
+        
+        input[type=text]{
+        border: 1px solid black;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 20px;
+        width: 100%;
+        
+        &:focus{
+        border: 1px solid black !important;
+        background-color: gray;
+        }
+        
+        }
+        
+        input[type=submit]{
+        @include btn($darkblue);
+        
+        }
+       
+    }
