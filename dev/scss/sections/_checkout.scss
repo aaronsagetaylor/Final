@@ -1,0 +1,27 @@
+#checkout{
+    h1{
+        @include mainheadline(black);
+        font-size: 47px;
+    }
+
+    h2{
+        @include mainheadline(black);
+        font-size: 30px;
+    }
+
+    h3{
+        @include mainheadline(black);
+        font-size: 25px;
+    }
+
+    h4{
+        @include paragraph(black);
+        font-size: 17px;
+    }
+    
+text-align: center;
+justify-content: center;
+
+
+
+}

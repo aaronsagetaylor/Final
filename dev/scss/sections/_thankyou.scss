@@ -1,0 +1,15 @@
+#thankyou{
+
+    h1{
+        @include mainheadline(black);
+        font-size: 34px;
+    }
+
+    h2{
+        @include subheadlines(black);
+        font-size: 20px;
+    }
+
+    text-align: center;
+    justify-content: center;
+}

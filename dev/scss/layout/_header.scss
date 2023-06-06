@@ -23,6 +23,25 @@ header {
 
     }
 
+
+    #burger-btn.open{
+        div{
+          transition:.3s;
+          //// COLORS & STYLES FOR ALL HERE
+          &:first-child{
+            transform: rotate(45deg);
+            transform-origin: bottom left;
+          }
+          &:nth-child(2){
+            opacity:0;
+          }
+          &:last-child{
+            transform-origin: top left;
+            transform:rotate(-45deg);
+          }
+        }
+      }
+
     #burger-container {
         display: block;
         position: absolute;
@@ -37,7 +56,29 @@ header {
 
 
     #main-menu {
-        display: none;
+        @media only screen and (max-width: 1024px) {
+            background-color: black;
+            transition:.3s;
+            height: 100vw;
+            width: 60%;
+            position: absolute;
+            right: -100%;
+    
+  
+            &.show-menu{
+                right:0;
+                transition:.3s;
+              
+              //// YOUR OPEN MENU CODE GOES HERE /////
+             ul a{
+                @include subheadlines(white);
+                font-size: 30px;
+                text-decoration: none;
+                
+            }
+            
+            }
+        }
        
         ul {
             display: flex;
