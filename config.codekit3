@@ -269,6 +269,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/thankyou.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankyou.html",
+      "oF" : 0
+    },
     "\/dev\/checkout.kit" : {
       "cB" : 0,
       "ft" : 2048,

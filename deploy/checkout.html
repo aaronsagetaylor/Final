@@ -25,9 +25,9 @@
     
     <nav id="main-menu">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="/deploy/index.html">Home</a></li>
             <li><a href="#">Products</a></li>
-            <li><a href="#">Insporation</a></li>
+            <li><a href="#">Inspiration</a></li>
             <li><a href="/deploy/checkout.html" class="btn">Cart</a></li>
         </ul>
     </nav>
@@ -44,9 +44,9 @@
     
     </header>
     
-           <section id="checkout">
+           <section id="checkout" style="display: flex; flex-direction: column; align-items: center;">
                <h1>Checkout</h1>
-               <img src="img/hero.png">
+               <img src="img/hero.png" style="width: 40%;">
            
                <h2>smeg</h2>
                <h2>4 - Slice Toaster</h2>
@@ -55,27 +55,35 @@
            
               <div id="infobox">
                 <h3>Contact</h3>
-               <imput type="text" placeholder="Name">
-                   <imput type="text" placeholder="Email">   
-                       <imput type="text" placeholder="Phone">
+                <div style="display: flex; flex-direction: column; row-gap: 20px;">
+                    <input type="text" placeholder="Name"></input>
+                    <input type="text" placeholder="Email"></input>   
+                    <input type="text" placeholder="Phone"></input>
+           
+                </div>
                
+                <h3>Adress</h3>
+               <div style="display: flex; flex-direction: column; row-gap: 20px;">
            
-               <h3>Adress</h3>
-               <imput type="text" placeholder="Adress 1">
-                   <imput type="text" placeholder="Adress 2">
-                       <imput type="text" placeholder="Zip Code">
-           
-               <h3>Card</h3>
-               <imput type="text" placeholder="Name on Card">
-                   <imput type="text" placeholder="Card #">
-                       <imput type="text" placeholder="CVV">
-                           <imput type="text" placeholder="Expiration Date">
+                   <input type="text" placeholder="Adress 1"></input>
+                   <input type="text" placeholder="Adress 2"></input>
+                   <input type="text" placeholder="Zip Code"></input>
                </div>
            
-               
-              <section id="shipping">
+               <h3>Card</h3>
+               <div style="display: flex; flex-direction: column; row-gap: 20px;">
+                   <input type="text" placeholder="Name on Card"></input>
+                   <input type="text" placeholder="Card #"></input>
+                   <input type="text" placeholder="CVV"></input>
+                   <input type="text" placeholder="Expiration Date"></input>
+           
+               </div>
+               </div>
+           
+           
+              <section id="shipping" style="margin: 40px;">
                                
-               <a href="/deploy/thankyou.html" class="btn">Proceed to Shipping</a>
+               <a href="/deploy/thankyou.html" style="border-style: solid; margin: 40px; padding: 5px; border-radius: 5px; border-color: black;" class="btn">Proceed to Shipping</a>
            
            </section>
            
